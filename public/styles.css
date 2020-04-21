@@ -5,7 +5,7 @@ body {
 #combat-module {
   margin: 0 auto;
   position: relative;
-  width: 50vh;
+  width: 40vw;
 }
 
 .avatar {
@@ -26,14 +26,14 @@ body {
 
 #hero {
   position: relative;
-  top: 200px;
+  top: 22vh;
   left: 10%;
   /*margin: auto;*/
 }
 
 #enemy {
   position:relative;
-  top:10%;
+  /*top:10%;*/
   left: 50%;
 }
 
