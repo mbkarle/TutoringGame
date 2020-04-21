@@ -1,0 +1,133 @@
+/*Main CSS*/
+body {
+  height:100vh;
+}
+#combat-module {
+  margin: 0 auto;
+  position: relative;
+  width: 50vh;
+}
+
+.avatar {
+  margin:0 auto;
+  position:relative;
+  width: 32px;
+  height: 32px;
+  padding:2px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#hero, #enemy {
+  font-size: 14px;
+  font-weight: bold;
+  width:fit-content;
+}
+
+#hero {
+  position: relative;
+  top: 200px;
+  left: 10%;
+  /*margin: auto;*/
+}
+
+#enemy {
+  position:relative;
+  top:10%;
+  left: 50%;
+}
+
+.control-panel {
+  position:relative;
+  top:18vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.action {
+  position:relative;
+  flex: 1;
+  font-size: 12px;
+  text-align: center;
+  color: #a6a6a6;
+  padding: 5px 30px;
+  border-style: solid;
+  border-color: #a6a6a6;
+  width: 50px;
+  margin: 10px 15px;
+  z-index: 2;
+}
+
+#shieldascii {
+  top: 200px;
+  left: 470px;
+  position: absolute;
+  z-index: 2;
+}
+
+.coolDown {
+  background-color: #e6e6e6;
+  opacity: .5;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.statusBar, .statusSlider, .invCarry {
+  position: absolute;
+  height: 16px;
+  width: 180px;
+  /*left: 10px;*/
+  margin: auto;
+}
+
+.statusBar, .invCarry {
+    font-size: 12px;
+    text-align: center;
+    /*color: #a6a6a6;*/
+    border-style: solid;
+    border-color: #a6a6a6;
+    border-width: thin;
+    position:relative;
+}
+.statusSlider {
+    opacity: .5;
+    background-color: #e6e6e6;
+    height: inherit;
+    left: 0;
+    top: 0;
+}
+
+#HeroEffects, #EnemyEffects, #effectsHover{
+    position: absolute;
+    top: 20px;
+    height: 20px;
+    width: 150px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #a6a6a6;
+    display: none;
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.effect{
+    position: absolute;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    color: #a6a6a6;
+    border-style: solid;
+    border-color: #a6a6a6;
+    border-width: thin;
+    text-align: center;
+}

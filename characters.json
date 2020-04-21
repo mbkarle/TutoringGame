@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "Matt": {
+      "name": "Matt",
+      "strength": 10,
+      "health": 100,
+      "intelligence": 10,
+      "dexterity": 5
+    }
+  },
+  "enemy": {
+    "Shredder": {
+      "name": "Shredder",
+      "strength": 5,
+      "health": 150,
+      "intelligence": 2,
+      "dexterity": 5
+    }
+  }
+}

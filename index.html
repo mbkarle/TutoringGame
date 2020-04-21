@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <!--Main Stylesheet-->
+        <link type="text/css" rel="stylesheet" href="styles.css"/>
+        <!--jQuery CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Main JS-->
+        <script src="helpers.js"></script>
+        <script src="Character.js"></script>
+        <script src="combat.js"></script>
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+          <!-- Combat Module -->
+      <div id="combat-module" style="margin:0 auto">
+        <div id="hero">
+            <div id="heroSymbol" class="avatar"> <image src="images/sprite_0.png"> </div>
+            <div id="heroHealthBar" class="statusBar">
+                <div id="heroHealthBarSlider" class="statusSlider"></div>
+            </div>
+        </div>
+        <div id="HeroEffects" style="left: 150px"></div>
+        <div id="EnemyEffects" style="left: 320px"></div>
+        <div id="effectsHover" style="top:50px;left:220px;display:none;"></div>
+        <div id="enemy">
+            <div id="enemyHealthBar" class="statusBar">
+                <div id="enemyHealthBarSlider" class="statusSlider"></div>
+            </div>
+            <div id="enemySymbol" class="avatar">E</div>
+        </div>
+        <div class="control-panel">
+          <div id="attack" class="action">Melee
+            <div id="attackSlider" class="coolDown"></div>
+          </div>
+          <div id="defend" class="action">
+              <div id="defendText"></div>
+              <div id="defendSlider" class="coolDown"></div>
+          </div>
+          <div id="dodge" class="action">
+            <div id="dodgeText">Dodge</div>
+            <div id="dodgeSlider" class="coolDown"></div>
+        </div>
+        <div style="margin:20px auto" class="action" id="begin"> Begin </div>
+      </div>
+    </body>
+
+</html>
